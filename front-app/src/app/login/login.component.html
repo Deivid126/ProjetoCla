@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@400;700&display=swap" rel="stylesheet">
+    <title>Login</title>
+</head>
+
+<body>
+    <main>
+        <section id="lado-esquerdo">
+            <div class="retangulo">
+                <div class="textos-acima">
+                    <div class="textos-acima-esquerda">
+                        <img class="logo" src="../../assets/triangulonovo.png" alt="">
+                        <h1>Myra</h1>
+                    </div>
+                    <div class="textos-acima-direito">
+                        <span class="station">station</span><span class="perfomace">perfomance anywhere</span>
+                    </div>
+                </div>
+                <div class="textos-abaixo">
+                    <p>perfomance</p>
+                    <p>anywhere</p>
+                </div>
+            </div>
+        </section>
+        <section id="lado-direito">
+            <div class="formulario">
+                <div class="container">
+                    <img class="logo-formulario" src="../../assets/triangulo.png" alt="">
+                    <form id="form" #usuarioForm = "ngForm" (ngSubmit)="login(usuarioForm.value)">
+                        <label for="usuario">Usuário</label>
+                        <div class="user">
+                            <label for="usuario">
+                                <fa-icon  [icon]="iconuser"></fa-icon>
+                            </label>
+                            <input ngModel  type="text" name="Login" id="usuario">
+                        </div>
+                        <label for="senha">Senha</label>
+                        <div class="lock">
+                            <label class="teste"for="senha">
+                                <fa-icon [icon]="iconlock"></fa-icon>
+                            </label>
+                            <input ngModel  type="password" name="PasswordHash" id="senha">
+                        </div>
+                        <button type ="submit" class="entrar">Entrar</button>
+                        <a href="">Esqueci minha senha</a>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>

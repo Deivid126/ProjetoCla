@@ -1,0 +1,192 @@
+
+*{
+    margin: auto 0;
+    padding: auto 0;
+    font-family: 'Miriam Libre', sans-serif;
+
+}
+
+body{
+    width: 100%;
+}
+
+main{
+    display: flex;
+    width: 100%;
+}
+
+#lado-esquerdo{
+    display: flex;
+    
+    
+    
+}
+.logo{
+    width: 100px;
+    height: 130px;
+}
+
+.retangulo{
+    width: 500px;
+    height: 650px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+}
+
+#lado-direito{
+    background-image: url("../../assets/backgroud.png");
+    height: 650px;
+    width: 600%;
+}
+
+h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+p{
+    font-size: 60px;
+    font-weight: 50;
+    color: white;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.textos-acima{
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    flex-direction: row;
+    font-size: 0;
+    margin-top: -5px;
+   
+}
+
+.textos-acima-direito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 150px;
+    
+    
+}
+.textos-acima-esquerda{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    width: 200px;
+    height: 150px;
+    
+}
+.textos-abaixo{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 0px 0px 200px 40px;
+}
+
+.station{
+    color: orange;
+    font-size: 50px;
+    font-weight: 200;
+    margin: 0;
+    margin-bottom:-10px ;
+    
+    
+}
+.perfomace{
+    color: white;
+    font-size: 15px;
+    margin: 0;
+    margin-top: -10px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(41, 39, 39);
+    width: 250px;
+    height: 360px;
+    padding-bottom: 30px;
+    margin: 200px 30px;
+
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -30px;
+    width: 200px;
+    padding-bottom: 40px;
+    
+}
+
+.logo-formulario{
+    width:150px;
+    height: 150px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.entrar{
+    margin: 25px 0px 25px 0px;
+   
+}
+label{
+    color: white;
+    text-align: left;
+    margin-top:10px
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+
+}
+#teste{
+    color: white;
+}
+
+.user .lock{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#usuario{
+    padding: 5px;
+    outline: none;
+}
+
+#senha{
+    padding: 5px;
+    outline: none;
+}
+
+.entrar{
+    background: none;
+    border: 2px solid orange;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
